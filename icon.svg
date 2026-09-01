@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Steady 75">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f5c4d5"/><stop offset=".52" stop-color="#a27f8e"/><stop offset="1" stop-color="#342a31"/></linearGradient>
+    <linearGradient id="path" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fff8f6"/><stop offset="1" stop-color="#f3aac4"/></linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="118" fill="url(#sky)"/>
+  <circle cx="365" cy="131" r="72" fill="#f9d1df" opacity=".92"/>
+  <path d="M-18 393C83 316 141 338 216 289S361 164 528 229V530H-18Z" fill="#493b43" opacity=".88"/>
+  <path d="M-18 440c98-65 171-22 241-87s117-174 307-116" fill="none" stroke="#6d5862" stroke-width="9" opacity=".7"/>
+  <path d="M-22 472c109-80 185-32 260-104 58-56 116-157 296-103" fill="none" stroke="url(#path)" stroke-width="15" stroke-linecap="round"/>
+  <g fill="none" stroke="#fff5f3" stroke-width="4" opacity=".45"><path d="M40 88h98M40 105h62M374 385h95M405 402h64"/><circle cx="98" cy="145" r="36"/><circle cx="98" cy="145" r="19"/></g>
+  <text x="58" y="299" fill="#fffaf8" font-family="Arial,Helvetica,sans-serif" font-size="170" font-weight="800" letter-spacing="-18">75</text>
+  <text x="63" y="335" fill="#fffaf8" font-family="Arial,Helvetica,sans-serif" font-size="28" font-weight="700" letter-spacing="8">STEADY</text>
+</svg>

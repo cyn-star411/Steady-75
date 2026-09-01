@@ -1,0 +1,13 @@
+{
+  "name": "Steady 75",
+  "short_name": "Steady 75",
+  "description": "A gentle daily 75-day challenge tracker.",
+  "start_url": "/Steady-75/",
+  "display": "standalone",
+  "background_color": "#a47b78",
+  "theme_color": "#332b31",
+  "icons": [
+    {"src": "/Steady-75/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable"},
+    {"src": "/Steady-75/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable"}
+  ]
+}
