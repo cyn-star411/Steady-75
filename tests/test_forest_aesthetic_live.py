@@ -49,6 +49,8 @@ class ForestAestheticLiveTrackerTests(unittest.TestCase):
         self.assertIn('<svg class="flower"', self.html)
         self.assertIn('id="flowerPetalMaterial"', self.html)
         self.assertIn('id="flowerSoftShadow"', self.html)
+        self.assertIn('class="flower-vine"', self.html)
+        self.assertIn('class="flower-companion"', self.html)
         self.assertNotIn("mask:radial-gradient(ellipse at 28% 28%", self.html)
         self.assertNotIn("radial-gradient(circle at 72% 46%", self.html)
 
