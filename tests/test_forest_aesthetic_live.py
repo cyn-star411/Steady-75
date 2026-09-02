@@ -44,11 +44,16 @@ class ForestAestheticLiveTrackerTests(unittest.TestCase):
         self.assertNotIn('aria-label="Edit ${esc(title)}"', self.html)
         self.assertIn("Every requirement resets at midnight.", self.html)
 
-    def test_today_standard_uses_a_dimensional_four_petal_flower_not_orb_rings(self):
-        self.assertIn("/* Four-petal floral sculpture for the Today Standard panel. */", self.html)
-        self.assertIn("radial-gradient(ellipse at 28% 28%", self.html)
-        self.assertIn("mask:radial-gradient(ellipse at 28% 28%", self.html)
+    def test_today_standard_uses_reference_matched_fused_flower_not_orb_rings(self):
+        self.assertIn("/* Reference-matched fused four-lobed flower for the Today Standard panel. */", self.html)
+        self.assertIn('<svg class="flower"', self.html)
+        self.assertIn('id="flowerPetalMaterial"', self.html)
+        self.assertIn('id="flowerSoftShadow"', self.html)
+        self.assertNotIn("mask:radial-gradient(ellipse at 28% 28%", self.html)
         self.assertNotIn("radial-gradient(circle at 72% 46%", self.html)
+
+    def test_includes_the_forest_background_asset_for_public_deployment(self):
+        self.assertTrue((APP.parent / "assets/images/forest-wellness-background.jpg").is_file())
 
 
 if __name__ == "__main__":
